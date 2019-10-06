@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400');
+/*  font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif; */
+
+/*
+===== /GENERAL/ =====
+*/
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	margin:0;
+	padding:0;
+}
+header {
+	display:flex;
+	justify-content:center;
+}
+section {
+	display:flex;
+	justify-content:center;
+}
+.container {
+	width:1000px;
+}
+
+/*
+===== MAIN =====
+*/
+#banner {
+	background-image:url(../images/banner-image1.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	background-position-y:20%;
+}
+.head_top {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	color:#FFF;
+	margin-top:25px;
+	margin-bottom:216px;
+}
+.head_mid {
+	display:flex;
+	justify-content:center;
+}
+.head_mid h1 {
+	font-size:52px;
+	font-weight:lighter;
+	letter-spacing:5px;
+	margin:0;
+	color:#FFF;
+}
+.head_search {
+	display:flex;
+	justify-content:center;
+	margin-top:25px;
+	margin-bottom:205px;
+}
+.head_search input {
+	border:0;
+	padding:12px;
+	font-size:16px;
+	outline:0;
+}
+input[name="search"] {
+	width:38%;
+	letter-spacing:1px;
+}
+input[value="GO"] {
+	color:#FFF;
+	font-weight:bold;
+	background-color:#fd4f32;
+	padding-left:34px;
+	padding-right:34px; 
+	width:12%;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+input[value="GO"]:hover {
+	background-color:#fc6b51;
+}
+/**/
+#center {
+	background-color:#EEE;
+}
+.sec_text h4 {
+	font-family: 'Montserrat', sans-serif;
+	color:#323232;
+	margin:0;
+	padding-top:58px;
+	letter-spacing:1px;
+}
+.sec_text h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:15px;
+	color:#8b8b8b;
+	margin:0;
+	padding-top:8px;
+	padding-bottom:35px;
+}
+/**/
+#widgets {
+	display:flex;
+	margin-bottom:70px;
+}
+.widget_item {
+	display:flex;
+	flex-flow: column wrap;
+}
+.widget_item_image {
+	display:flex;
+	flex-flow: column wrap;
+	position:relative;
+
+}
+.widget_item_desc {
+	display:flex;
+	flex-flow: column wrap;
+	background-color:#FFF;
+	padding:18px;
+}
+.widget_item_desc h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	color:#323232;
+	padding-bottom:10px;
+}
+.widget_item_desc p {
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	color:#696969;
+}
+.widget_item_desc h5,
+.widget_item_desc p {
+	margin:0
+}
+#widgets ._blank {
+	padding:0px 6px 0px 6px;
+}
+.img_price {
+	position:absolute;
+	bottom: 15px;
+    right: 15px;
+}
+.img_price p {
+	font-family:'Montserrat', sans-serif;
+	font-size:12px;
+	color:#FFF;
+	margin:0;
+	letter-spacing:1px;
+}
+/**/
+.end {
+	justify-content:flex-start;
+}
+.end h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	font-size:52px;
+	color:#323232;
+	margin:0;
+	padding-top:80px;
+	padding-bottom:52px;
+}
+article .sec_text h4 {
+	padding:0;
+	letter-spacing:1px;
+}
+article {
+	display:flex;
+	margin-bottom:50px;
+
+}
+article ._blank {
+	padding:0px 40px 0px 40px;
+}
+form {
+	margin-bottom:80px;
+}
+form .sec_text {
+	display:flex;
+	justify-content:center;
+	margin-bottom:28px;
+}
+form .sec_text h4 {
+	padding-top:0;
+}
+.subscription {
+	display:flex;
+	justify-content:center;
+}
+.subscription input {
+	border:0;
+	padding:12px;
+	font-size:16px;
+	outline:0;
+}
+input[name="email"] {
+	background-color:#EEE;
+	width:31%;
+	letter-spacing:1px;
+}
+input[value="SUBSCRIBE"] {
+	color:#FFF;
+	font-weight:bold;
+	background-color:#fd4f32;
+	padding-left:34px;
+	padding-right:34px;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+input[value="SUBSCRIBE"]:hover {
+	background-color:#fc6b51;
+}
+/**/
+footer {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#EEE;
+	height:73px;
+}
+footer p {
+	display:flex;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	color:#989898;
+	margin:0;
+}
+footer .container {
+	display:flex;
+	justify-content:space-between;
+}
+.foot_menu {
+	...
+}
+.foot_menu ul {
+	display:flex;
+	list-style:none;
+	margin:0;
+}
+.foot_menu li {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	color:#323232;
+	letter-spacing:1px;
+	margin-left:9px;
+	margin-right:9px;
+}
+.foot_menu li:hover {
+	color:#999BBB;
+	cursor:pointer;
+}
